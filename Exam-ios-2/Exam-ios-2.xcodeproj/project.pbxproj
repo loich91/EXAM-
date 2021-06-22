@@ -13,6 +13,16 @@
 		F4E05DEE2681D96D00A30157 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E05DEC2681D96D00A30157 /* Main.storyboard */; };
 		F4E05DF02681D96E00A30157 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4E05DEF2681D96E00A30157 /* Assets.xcassets */; };
 		F4E05DF32681D96E00A30157 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4E05DF12681D96E00A30157 /* LaunchScreen.storyboard */; };
+		F4E05DFB2681F02800A30157 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E05DFA2681F02800A30157 /* Color.swift */; };
+		F4E05DFE2682096200A30157 /* PageLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E05DFD2682096200A30157 /* PageLoginViewController.swift */; };
+		F4E05E02268220AD00A30157 /* PockmonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E05E01268220AD00A30157 /* PockmonViewController.swift */; };
+		F4E05E04268220F600A30157 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E05E03268220F600A30157 /* PickerViewController.swift */; };
+		F4E05E062682217D00A30157 /* Nav1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E05E052682217D00A30157 /* Nav1.swift */; };
+		F4E05E08268221B700A30157 /* nav2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E05E07268221B700A30157 /* nav2.swift */; };
+		F4E05E0C2682222800A30157 /* tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E05E0B2682222800A30157 /* tab.swift */; };
+		F4E05E0F26822A9400A30157 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E05E0D26822A9400A30157 /* TableViewCell.swift */; };
+		F4E05E1026822A9400A30157 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4E05E0E26822A9400A30157 /* TableViewCell.xib */; };
+		F4E05E1226822AC400A30157 /* pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E05E1126822AC400A30157 /* pokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		F4E05DEF2681D96E00A30157 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4E05DF22681D96E00A30157 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4E05DF42681D96E00A30157 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4E05DFA2681F02800A30157 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		F4E05DFD2682096200A30157 /* PageLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageLoginViewController.swift; sourceTree = "<group>"; };
+		F4E05E01268220AD00A30157 /* PockmonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PockmonViewController.swift; sourceTree = "<group>"; };
+		F4E05E03268220F600A30157 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		F4E05E052682217D00A30157 /* Nav1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nav1.swift; sourceTree = "<group>"; };
+		F4E05E07268221B700A30157 /* nav2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nav2.swift; sourceTree = "<group>"; };
+		F4E05E0B2682222800A30157 /* tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab.swift; sourceTree = "<group>"; };
+		F4E05E0D26822A9400A30157 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F4E05E0E26822A9400A30157 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		F4E05E1126822AC400A30157 /* pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +77,32 @@
 			isa = PBXGroup;
 			children = (
 				F4E05DE62681D96D00A30157 /* AppDelegate.swift */,
+				F4E05DFC2681F08700A30157 /* Utils */,
 				F4E05DE82681D96D00A30157 /* SceneDelegate.swift */,
 				F4E05DEA2681D96D00A30157 /* ViewController.swift */,
 				F4E05DEC2681D96D00A30157 /* Main.storyboard */,
+				F4E05E0D26822A9400A30157 /* TableViewCell.swift */,
+				F4E05E1126822AC400A30157 /* pokemon.swift */,
+				F4E05E0E26822A9400A30157 /* TableViewCell.xib */,
+				F4E05E0B2682222800A30157 /* tab.swift */,
+				F4E05E07268221B700A30157 /* nav2.swift */,
+				F4E05E052682217D00A30157 /* Nav1.swift */,
+				F4E05E03268220F600A30157 /* PickerViewController.swift */,
+				F4E05E01268220AD00A30157 /* PockmonViewController.swift */,
+				F4E05DFD2682096200A30157 /* PageLoginViewController.swift */,
 				F4E05DEF2681D96E00A30157 /* Assets.xcassets */,
 				F4E05DF12681D96E00A30157 /* LaunchScreen.storyboard */,
 				F4E05DF42681D96E00A30157 /* Info.plist */,
 			);
 			path = "Exam-ios-2";
+			sourceTree = "<group>";
+		};
+		F4E05DFC2681F08700A30157 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F4E05DFA2681F02800A30157 /* Color.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4E05DF32681D96E00A30157 /* LaunchScreen.storyboard in Resources */,
+				F4E05E1026822A9400A30157 /* TableViewCell.xib in Resources */,
 				F4E05DF02681D96E00A30157 /* Assets.xcassets in Resources */,
 				F4E05DEE2681D96D00A30157 /* Main.storyboard in Resources */,
 			);
@@ -137,9 +176,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4E05E02268220AD00A30157 /* PockmonViewController.swift in Sources */,
 				F4E05DEB2681D96D00A30157 /* ViewController.swift in Sources */,
+				F4E05DFB2681F02800A30157 /* Color.swift in Sources */,
+				F4E05E062682217D00A30157 /* Nav1.swift in Sources */,
 				F4E05DE72681D96D00A30157 /* AppDelegate.swift in Sources */,
+				F4E05E0C2682222800A30157 /* tab.swift in Sources */,
+				F4E05E0F26822A9400A30157 /* TableViewCell.swift in Sources */,
 				F4E05DE92681D96D00A30157 /* SceneDelegate.swift in Sources */,
+				F4E05E04268220F600A30157 /* PickerViewController.swift in Sources */,
+				F4E05E1226822AC400A30157 /* pokemon.swift in Sources */,
+				F4E05DFE2682096200A30157 /* PageLoginViewController.swift in Sources */,
+				F4E05E08268221B700A30157 /* nav2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
